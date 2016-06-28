@@ -13,7 +13,7 @@
         }
     }
     document.addEventListener("DOMContentLoaded", function(event) {
-        Ajax.getJSON("http://kea-alt-del.dk/twitter/api/?hashtag=homebrew", function(e){
+        Ajax.getJSON("https://kea-alt-del.dk/twitter/api/?hashtag=homebrew", function(e){
             setupTweets(JSON.parse(e));
         });
     });
