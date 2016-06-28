@@ -38,7 +38,7 @@
             }
             
             data.statuses.forEach(addTweet)
-                
+            console.log(data.statuses[0]);  
             document.body.appendChild(container);
         }  
     }
